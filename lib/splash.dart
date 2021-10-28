@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers
 
 import 'package:hexcolor/hexcolor.dart';
-import 'package:flutter/material.dart';
+
 
 class Splash extends StatelessWidget {
   const Splash({Key? key}) : super(key: key);
