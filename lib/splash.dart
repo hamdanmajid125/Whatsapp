@@ -1,12 +1,28 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers
 
+import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:myfirst/utils/routes.dart';
 
-
-class Splash extends StatelessWidget {
+class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
 
   @override
+  State<Splash> createState() => _SplashState();
+}
+
+class _SplashState extends State<Splash> {
+  @override
+  void initState() {
+    super.initState();
+    _navigatetoHome();
+  }
+
+  void _navigatetoHome() async {
+    await Future.delayed(Duration(milliseconds: 3000));
+    Navigator.pushNamed(context, MyRoutes.whatsAppHome);
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
