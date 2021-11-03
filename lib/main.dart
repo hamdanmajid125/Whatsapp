@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         initialRoute: MyRoutes.splash,
         routes: {
           MyRoutes.splash: (context) => const Splash(),
-          MyRoutes.whatsAppHome: (context) => const WhatsAppHome()
+          MyRoutes.whatsAppHome: (context) =>  WhatsAppHome()
         });
   }
 }

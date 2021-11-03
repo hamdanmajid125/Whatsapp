@@ -1,0 +1,32 @@
+{
+    "messages": [
+        {
+            "id": 1,
+            "name": "Hamdan",
+            "message": "Han bhai kia scene hai kl ka?",
+            "time": "11:30 AM",
+            "url": "null"
+        },
+        {
+            "id": 2,
+            "name": "Wahab",
+            "message": "Yr ye kia mzaq lga rkha hai?",
+            "time": "1:30 PM",
+            "url": "null"
+        },
+        {
+            "id": 3,
+            "name": "Yaseen",
+            "message": "Kia scene hai chlna hai KU?",
+            "time": "6:30 PM",
+            "url": "images/profile/3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Bgharit YAAR",
+            "message": "Aj milen?",
+            "time": "1:30 PM",
+            "url": "images/profile/4.jpg"
+        }
+    ]
+}
